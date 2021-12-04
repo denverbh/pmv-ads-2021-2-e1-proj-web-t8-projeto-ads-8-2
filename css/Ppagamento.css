@@ -1,0 +1,130 @@
+body{
+    background-color: #1c191a;
+    font-family: Helvetica;
+}
+
+header{
+    background-color: #303030;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas: "cabecalho cabecalho";
+    
+}
+.Logo{
+    padding: 50px;
+    float: left;
+    background-color: transparent !important;
+}
+  
+h1 { 
+    background-color: #f4b324;
+    color: #1c191a;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 2px 0px;
+    border-radius: 10px;
+}
+
+.fsc{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+input{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    background-color: #303030;
+    color: #f6e7d8;
+    padding: 3px;
+}
+
+label{
+    color: #f6e7d8 ;
+}
+.name{
+    color: #f6e7d8;
+}
+
+
+.info{
+    color: #f6e7d8;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+p{
+    color: #f6e7d8;
+}
+
+#uf{
+    border-radius: 5px;
+    outline: 0px;
+    border-color: transparent;
+    background-color: #303030;
+    color: #f6e7d8;
+    padding: 3px;
+}
+
+.botao3{
+    background-color: #07a5c3;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #f6e7d8;
+    font-size: 13px;
+    font-weight: 300;
+    text-shadow: 2px 2px 5px #303030;
+}
+.botao3:hover{
+    background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
+}
+
+.botao2{
+    float: left;
+    background-color: #f4b324;
+    border: 0px;
+    color: #303030;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px #303030;
+    margin: 5px;
+    text-shadow: 1px 1px 5px #303030;
+}
+.botao1{
+    float: right;
+    background-color: #f4b324;
+    border: 0px;
+    color: #303030;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px #303030;
+    margin: 5px;
+    text-shadow: 1px 1px 5px #303030;
+}
+.botao1:hover{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+}
+.botao2:hover{
+    background-image: linear-gradient(to right, #f4b324, #f14902);
+}
+
+@media (max-width:600px){
+    .Logo{
+        text-align: center;
+    }
+}

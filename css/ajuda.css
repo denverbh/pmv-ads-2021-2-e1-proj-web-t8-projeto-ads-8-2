@@ -1,0 +1,71 @@
+@media screen and (max-width: 600px){
+    .logotipo{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+header{
+    background-color: #303030;
+    padding: 40px;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+body{
+    background-color: #1c191a;
+}
+
+.camposForm{
+    width: 30%;
+    border-style: groove;
+    border-width: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #f4b324;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: stretch;
+}
+
+legend{
+    border-style: solid;
+    background-color: white;
+    color:black;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+select{
+    width: 200px; height: 30px;
+}
+
+.campos{
+    color:black;
+    font-size: large;
+}
+
+fieldset>input{
+    width: 460px; height: 30px;
+}
+
+textarea{
+    width: 460px; height: 150px;
+}
+
+#enviaForm{
+    
+    font-size: large;
+}
+#voltar{
+    padding: 5px;
+    color: blanchedalmond;
+    font-size: medium;
+    font-weight: normal;
+    border-style: double;
+    margin: 10px;
+}

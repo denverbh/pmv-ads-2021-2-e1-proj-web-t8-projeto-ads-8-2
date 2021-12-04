@@ -1,6 +1,6 @@
-# TÍTULO DO PROJETO
+# BUSCADOR DE SERVIÇOS DOMÉSTICOS
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 `DISCIPLINA`
 
@@ -10,10 +10,13 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno Ribeiro Gammaro
+* Cristiane Fumagalli Navarro Martins
+* Denver Gonçalves Gomes
+* Victor Ribeiro Gammaro
+* Aline Martins Candido 
+* Bruno Francisco Silva de Lima
+* Lucia Raquel Ramos Berger
 
 ## Orientador
 
@@ -46,3 +49,4 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+!

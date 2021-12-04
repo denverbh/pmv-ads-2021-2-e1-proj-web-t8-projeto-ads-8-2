@@ -1,0 +1,54 @@
+body
+{
+    background-color:rgb(61, 155, 199);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1
+{
+    color: darkgoldenrod;
+
+}
+
+
+form
+{
+    width: 50%;
+}
+header
+{
+    background-color: yellow;
+    border: black;
+    border-style: solid;
+}
+input
+{
+    width: 10cm;
+    height: 1cm;
+    font-size: 15px;
+}
+[list]
+{
+    font-style: italic;
+}
+#login
+{
+    size: 5cm;
+    background-color: gray;
+    font-size: 16px;
+    float: right;
+}
+#CF
+{
+    
+    font-size: 16px;
+    color: black;
+    float: left;
+}
+#Csou
+{
+    font-size: 16px;
+    color: black;
+    float: left;
+}

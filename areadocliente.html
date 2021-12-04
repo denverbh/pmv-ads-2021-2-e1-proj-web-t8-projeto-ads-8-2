@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60" />
+    <title>BSG - Área do cliente</title>
+    <link rel="stylesheet" href="css/areadocliente.css">
+    <!--dados do bootstrap 4.6-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--Responsividade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    
+</head>
+<header>
+    <div class="Logo">
+        <!--logo-->
+        <form method="get" action="Index.html">
+            <input type="image" src="/img/Logo L branca p.png" width="200px"></input>
+        </form>
+    </div>
+</header>
+<body>
+
+    <Div>
+        <h1>Área do cliente</h1>
+    </Div>
+
+    <div class="div-tabela">
+        <div>
+            <h2>Histórico de Serviços</h2>
+            <!--tabela de histórico-->
+            <table class="table table-bordered">
+                <thead>
+                    <tr id="tabelaHS">
+                        <th scope="col">Prestador</th>
+                        <th scope="col">Orçamento</th>
+                        <th scope="col">Avaliação do Serviço</th>
+                        <th scope="col">Status do Serviço</th>
+                        <th scope="col">Iniciar Chat</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaHS2">
+                    <tr>
+                        <th scope="row">João</th>
+                        <td><a href="Ppagamento-1.html">$</a></td>
+                        <td><a href="avaliaPrestador.html">*</a></td>
+                        <td class="table-danger">Aberto</td>
+                        <td> <a href="Chat.html"><img src="img/logo-chat.png" class="logo-chat" alt="Iniciar"></a> </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">José</th>
+                        <td>$$</td>
+                        <td><a href="avaliaPrestador.html">*</a></td>
+                        <td class="table-warning">Em andamento</td>
+                        <td> <a href="Chat.html"><img src="img/logo-chat.png" class="logo-chat" alt="Iniciar"></a> </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Maria</th>
+                        <td>$</td>
+                        <td><a href="avaliaPrestador.html">*</a></td>
+                        <td class="table-success">Concluído</td>
+                        <td> <a href="Chat.html"><img src="img/logo-chat.png" class="logo-chat" alt="Iniciar"></a> </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pedro</th>
+                        <td>$$</td>
+                        <td><a href="avaliaPrestador.html">*</a></td>
+                        <td class="table-success">Concluído</td>
+                        <td> <a href="Chat.html"><img src="img/logo-chat.png" class="logo-chat" alt="Iniciar"></a> </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <Div>
+            <a>
+                <form method="get" action="Pdisponiveis.html">
+                    <button type="submit" class="btn-novo">Solicitar novo Serviço</button> 
+                </form>
+            </a>
+        </Div>
+    </div>
+
+    <div class="div-dados">
+
+                <div class="card">
+                    <div class="card-login">
+                        <label>Nome Completo</label>
+                        <p>Mostrar Nome</p>
+                    </div>
+                    <div class="card-login">
+                        <label>Endereço</label>
+                        <p>Mostrar Endereço</p>
+                    </div>
+                    <div class="card-login">
+                        <label>Telefone</label><img class="img-icone" src="img/icone-telefone.png" alt="fone"
+                            height="25px" width="25px">
+                        <p>Mostrar Telefone</p>
+                    </div>
+                    <div class="card-login">
+                        <label>e-mail</label><img class="img-icone" src="img/icone-email.png" alt="fone" height="25px"
+                            width="25px">
+                        <p>Mostrar e-mail</p>
+                    </div>
+                    <div id="btne">
+                        <form method="get" action="CadastroC.html">
+                            <button href="CadastroC.html" id="editar">Editar</button>
+                        </form>
+                    </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <!--estes dois são para o bootstrap JS-->
+
+</body>
+
+</html>

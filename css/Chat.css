@@ -1,0 +1,74 @@
+header{
+    background-color: #303030;
+    padding: 30px;
+
+    align-items: stretch;
+
+
+}
+body{
+    background-color:#1c191a;
+
+}
+
+.formChat{
+    width: 530px;
+    border-style: groove;
+    border-width: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #f4b324;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: stretch;
+
+
+}
+legend{
+    border-style: solid;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+    
+    
+    
+}
+textarea{
+    width: 470px;
+    height: 300px;
+    padding: 15px;
+    background-color:white;
+    overflow-y: scroll;
+    font-weight: normal;
+
+}
+
+fieldset>input{
+    width: 470px;  height: 30px;
+   
+}
+
+#botao{
+    font-weight: bold;
+    font-size: large;
+    margin: auto;
+    width: 470px;
+    height: 30px;
+    
+}
+
+#voltar{
+    padding: 5px;
+    color: blanchedalmond;
+    font-size: medium;
+    font-weight: normal;
+    border-style: double;
+    margin: 10px;
+}
+
+    
+
+    

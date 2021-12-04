@@ -1,0 +1,204 @@
+body{
+    background-color: #1c191a;
+    font-family: Helvetica;
+    font-size: 16px;
+
+}
+
+header{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "cabecalho";
+
+}
+
+.LC{
+    margin: auto;
+    padding: 30px;
+
+}
+
+.content{
+    background-color: white;
+    width: 400px;
+    min-height: 360px;    
+    margin: 0px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #303030;
+    padding: 20px;
+
+}
+
+h1{
+    margin-top: 15px;
+    font-size: 35px;
+    color: #07a5c3;
+    padding: 5px 0 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h1:after{
+    content: ' ';
+    display: block;
+    width: 80%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+
+}
+
+label{
+    color: #07a5c3;
+}
+
+.login{
+    margin: auto;
+
+}
+
+.login > label{
+    width: 100%; 
+    display: block; 
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.login > input{
+    border-radius: 5px;
+    border-color: #07a5c3;
+    outline: 0px;
+    margin: auto;
+    width: 93%;
+    height: 25px;
+    padding: 3px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: 1px solid #07a5c3
+
+}
+
+.senha{
+    margin: auto;
+
+}
+
+.senha > label{
+    margin-top: 8px;
+    width: 100%; 
+    display: block; 
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.senha > input{
+    border-radius: 5px;
+    border-color: #07a5c3;
+    outline: 0px;
+    margin: auto;
+    width: 93%;
+    height: 25px;
+    padding: 3px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: 1px solid #07a5c3
+
+}
+
+.ML{
+    margin-top: 8px;
+    font-size: 12px;
+
+}
+
+.logar > button{
+    background-color: #07a5c3;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: #f6e7d8;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #303030;
+    
+
+}
+.logar > button:hover{
+    background-image: linear-gradient(to right, #07a5c3, #78b5c2 );
+    cursor: pointer;
+}
+
+.MS{
+    margin-top: 10px;
+    font-size: 10px;
+    padding-left: 10px;
+
+}
+
+.link{
+    position: absolute;
+    background: #ffffff;
+    color: #303030;
+    left: 0px;
+    height: 20px;
+    width: 380px;
+    margin-top: 8px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid #07a5c3;
+   
+    -webkit-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  10px 10px;
+
+}
+
+.link a {
+    font-weight: bold;
+    background: #ffffff;
+    padding: 6px;
+    color: #07a5c3;
+    margin-left: 10px;
+    border: 1px solid #f4b324;
+   
+    -webkit-border-radius: 4px;
+    border-radius: 4px;  
+   
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+
+}
+   
+.link a:hover {
+    color: #07a5c3;
+    background: #ffffff;
+    border: 1px solid #07a5c3;
+
+}
+
+
+@media (max-width: 600px){
+    
+    header{
+        width: 100%;
+
+    }
+
+    .LC{
+        margin: auto;
+
+    }
+}
